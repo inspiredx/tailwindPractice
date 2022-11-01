@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="text-gray-700">
+    <div class="container mx-auto px-4">
+        <header class="flex justify-between text-2xl py-10 border-b-2 border-blue-300 mb-8">
+            <a href="">Logo</a>
+            <ul class="flex justify-between">
+                <li class="ml-8"><a href="">About</a></li>
+                <li class="ml-8"><a href="">Blog</a></li>
+                <li class="ml-8"><a href="">Contact</a></li>
+            </ul>
+        </header>
+
+
+        <div class="grid grid-cols-4 gap-4 text-center">
+            <div class="transition ease-in-out delay-150 hover:bg-red-400 bg-blue-300 rounded-md p-8">01</div>
+            <div class="transition ease-in-out delay-150 hover:bg-red-400 bg-blue-300 rounded-md p-8">02</div>
+            <div class="transition ease-in-out delay-150 hover:bg-red-400 bg-blue-300 rounded-md p-8">03</div>
+            <div class="transition ease-in-out delay-150 hover:bg-red-400 bg-blue-300 rounded-md p-8">04</div>
+            <div class="transition ease-in-out delay-150 hover:bg-red-400 bg-blue-300 rounded-md p-8">05</div>
+            <div class="transition ease-in-out delay-150 hover:bg-red-400 bg-blue-300 rounded-md p-8">06</div>
+            <div class="transition ease-in-out delay-150 hover:bg-red-400 bg-blue-300 rounded-md p-8">07</div>
+            <div class="transition ease-in-out delay-150 hover:bg-red-400 bg-blue-300 rounded-md p-8">08</div>
+        </div>
+
+        <div class="flex justify-center py-10">
+            <div
+                class="animate-bounce bg-white dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
+                <svg class="w-6 h-6 text-violet-500" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="bg-blue-300 rounded-md p-8">
+            <h2 class="text-lg mb-4">Subscribe Me</h2>
+            <form action="" class="flex text-lg -m-2 w-2/3">
+                <input class="border-2 border-blue-500 rounded-md placeholder-blue-400 px-8 py-4 m-2 w-2/5" type="text" placeholder="Your name">
+                <input class="border-2 border-blue-500 rounded-md placeholder-blue-400 px-8 py-4 m-2 w-2/5" type="email" placeholder="Your email">
+                <button class="bg-blue-400 border-2 border-blue-500 rounded-md px-8 py-4 text-white m-2 w-1/5" type="submit">Subscribe</button>
+            </form>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
